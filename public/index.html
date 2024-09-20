@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Rock Paper Scissors</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body>
+  <div id="index-banner" class="parallax-container background1">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center brown-text text-lighten-2">Rock Paper Scissors</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Lets play against the computer and see if we can predict a pattern</h5>
+        </div>
+        <div class="row center">
+          <a href="#rps-game" id="start-button" class="btn-large waves-effect waves-light red darken-4">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="http___cdn.cnn.com_cnnnext_dam_assets_190828151832-amy-lee-lummus-rock-paper-scissors-high-res.jpg" alt="Unsplashed background img 1"></div>
+  
+  </div>
+
+
+  <div class="container scrollspy" id="rps-game">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text">
+              <label for="icon_prefix">First Name</label>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col s4">
+          <h2 class="center"><button class="btn-floating btn-large waves-effect waves-light brown" value="rock"><i class="fas fa-hand-rock"></i></button></h2>
+          <h3 class="center">Rock</h3>
+        </div>
+
+        <div class="col s4">
+          <h2 class="center"><button class="btn-floating btn-large waves-effect waves-light brown" value="paper"><i class="fas fa-hand-paper"></i></button></h2>
+          <h3 class="center">Paper</h3>
+        </div>
+
+        <div class="col s4">
+          <h2 class="center"><button class="btn-floating btn-large waves-effect waves-light brown" value="scissors"><i class="fas fa-hand-scissors"></i></button></h2>
+          <h3 class="center">Scissors</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 score">
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="ef0823ccd0d8f0897b36d6f385fecc8e.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Leader Board</h4>
+        </div>
+      </div>
+      <table class= "striped">
+        <thead>
+          <tr>
+              <th>Player</th>
+              <th>Wins</th>
+              <th>Losses</th>
+              <th>Ties</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+        </table>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="image.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer red darken-4">
+    
+      <div class="container">
+      Made by <span class="brown-text text-lighten-3">Josephine Ndungu</span>
+      </div>
+   
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
